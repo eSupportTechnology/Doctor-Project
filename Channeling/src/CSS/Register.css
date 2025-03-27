@@ -1,0 +1,31 @@
+.back-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+.back-button{
+    background-color: rgb(29, 29, 139);
+    box-shadow: 2px 2px 2px rgb(76, 76, 76);
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: white;
+    
+    display: flex; 
+    align-items: center; 
+    justify-content: center;  
+}
+.text-line{
+   margin-top: 50px;
+}
+.text{
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 50px;
+}
+@media(max-width:640px){
+    .text{
+        margin-left: 20px;
+    }
+}
